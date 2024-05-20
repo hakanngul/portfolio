@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
 
+
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -198,7 +199,7 @@
 			</div>
 		</div>
 	</div>
-	
+	<!--Skills Section -->
 	<div id="fh5co-skills" class="animate-box">
 		<div class="container">
 			<div class="row">
@@ -288,65 +289,187 @@
 		</div>
 	</div>
 
-	<div id="fh5co-work" class="fh5co-bg-dark">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Work</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
-						<div class="desc">
-							<h3>JavaPractice</h3>
-							<span>Java</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
-						<div class="desc">
-							<h3>CFGSeleniumTestNG</h3>
-							<span>Selenium</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
-						<div class="desc">
-							<h3>CSharp-Selenium</h3>
-							<span>C#</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
-						<div class="desc">
-							<h3>SwiftUI</h3>
-							<span>Swift</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
-						<div class="desc">
-							<h3>dotnetcore-webapi</h3>
-							<span>.NET Core</span>
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
-						<div class="desc">
-							<h3>JavaAlgorithm</h3>
-							<span>Java</span>
-						</div>
-					</a>
-				</div>
-			</div>
-		</div>
+
+	<!-- Popup Modal -->
+<div id="projectPopup" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <h2 id="projectTitle"></h2>
+	  <p id="projectDescription"></p>
 	</div>
+  </div>
+  
+<!-- Work Section -->
+<div id="fh5co-work" class="fh5co-bg-dark">
+	<div class="container">
+	  <div class="row animate-box">
+		<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+		  <h2>Work</h2>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-md-3 text-center col-padding animate-box">
+		  <a href="#" class="work" data-title="RestAssureCoreApiProject" data-description="#restassure-core-api"  style="background-image: url(images/Rest-assured.jpg);">
+			<div class="desc">
+			  <h3>RestAssureCoreApiProject</h3>
+			  <span>Java</span>
+			</div>
+		  </a>
+		</div>
+		<div class="col-md-3 text-center col-padding animate-box">
+		  <a href="#" class="work" data-title="CFGSeleniumTestNG" data-description="#cfg-selenium-testng" style="background-image: url(images/portfolio-2.jpg);">
+			<div class="desc">
+			  <h3>CFGSeleniumTestNG</h3>
+			  <span>Selenium</span>
+			</div>
+		  </a>
+		</div>
+		<div class="col-md-3 text-center col-padding animate-box">
+		  <a href="#" class="work" data-title="CSharp-Selenium" data-description="#csharp-selenium" style="background-image: url(images/portfolio-3.jpg);">
+			<div class="desc">
+			  <h3>CSharp-Selenium</h3>
+			  <span>C#</span>
+			</div>
+		  </a>
+		</div>
+		<div class="col-md-3 text-center col-padding animate-box">
+		  <a href="#" class="work" data-title="SwiftUI" data-description="#swiftui" style="background-image: url(images/portfolio-4.jpg);">
+			<div class="desc">
+			  <h3>SwiftUI</h3>
+			  <span>Swift</span>
+			</div>
+		  </a>
+		</div>
+		<div class="col-md-3 text-center col-padding animate-box">
+		  <a href="#" class="work" data-title="dotnetcore-webapi" data-description="#dotnetcore-webapi" style="background-image: url(images/portfolio-5.jpg);">
+			<div class="desc">
+			  <h3>dotnetcore-webapi</h3>
+			  <span>.NET Core</span>
+			</div>
+		  </a>
+		</div>
+		<div class="col-md-3 text-center col-padding animate-box">
+		  <a href="#" class="work" data-title="JavaAlgorithm" data-description="#java-algorithm" style="background-image: url(images/portfolio-6.jpg);">
+			<div class="desc">
+			  <h3>JavaAlgorithm</h3>
+			  <span>Java</span>
+			</div>
+		  </a>
+		</div>
+	  </div>
+	</div>
+  </div>
+  
+  <!-- Popup Modal -->
+  <div id="projectPopup" class="modal">
+	<div class="modal-content">
+	  <span class="close">&times;</span>
+	  <h2 id="projectTitle"></h2>
+	  <p id="projectDescription"></p>
+	</div>
+  </div>
+  
+  <!-- Project Descriptions -->
+<div id="restassure-core-api" style="display:none;">
+	<h3>Rest Assured Core API Project</h3>
+	<p>This project is a comprehensive test framework built using Java, Rest Assured, and Cucumber. The framework is designed to facilitate API testing with structured configuration, logging, reporting, and robust assertions.</p>
+	<h4>Features</h4>
+	<ul>
+	  <li>Configurable Environment: Easily switch between different environments using the configuration properties.</li>
+	  <li>Authentication Management: Handles authentication for API requests.</li>
+	  <li>Retry Mechanism: Implements retry logic for handling intermittent failures.</li>
+	  <li>Extensive Logging: Uses Log4j2 for detailed logging.</li>
+	  <li>Comprehensive Reporting: Generates detailed HTML reports using ExtentReports.</li>
+	  <li>Flexible Assertions: Provides a variety of assertion methods to validate API responses.</li>
+	</ul>
+	<h4>Installation</h4>
+	<p>Clone the Repository:</p>
+	<pre><code>git clone https://github.com/hakanngul/RestAssureCoreApiProject.git</code></pre>
+	<p>Navigate to the Project Directory:</p>
+	<pre><code>cd RestAssureCoreApiProject</code></pre>
+	<h4>Install Dependencies</h4>
+	<p>Ensure you have Maven installed, then run:</p>
+	<pre><code>mvn clean install</code></pre>
+	<h4>Usage</h4>
+	<h5>Running Tests</h5>
+	<p>To run the tests, use the following command:</p>
+	<pre><code>mvn test</code></pre>
+	<h5>Run specific tests:</h5>
+	<p>Use the <code>-Dtest</code> option to specify test classes or methods:</p>
+	<pre><code>mvn -Dtest=AppTest test</code></pre>
+	<h4>Project Structure</h4>
+	<pre><code>core/
+  |-- src/
+  |   |-- main/
+  |   |   |-- java/
+  |   |   |   |-- core/
+  |   |   |   |   |-- authentication/
+  |   |   |   |   |-- base/
+  |   |   |   |   |-- config/
+  |   |   |   |   |-- handlers/
+  |   |   |   |   |-- logging/
+  |   |   |   |   |-- request/
+  |   |   |   |   |-- utils/
+  |   |   |-- resources/
+  |   |   |   |-- config.properties
+  |   |-- test/
+  |   |   |-- java/
+  |   |   |   |-- core/
+  |   |   |   |   |-- AppTest.java
+  |-- pom.xml</code></pre>
+	<h4>Configuration</h4>
+	<p>The <code>config.properties</code> file located in <code>src/main/resources</code> contains all the necessary configurations for the framework. Update this file to match your environment settings.</p>
+	<h5>Example config.properties:</h5>
+	<pre><code># API base URL
+  base.url=https://jsonplaceholder.typicode.com
+  
+  # Authentication credentials
+  username=testuser
+  password=testpassword
+  
+  # Environment settings
+  environment=test
+  
+  # Timeout settings
+  request.timeout=5000
+  
+  # Retry policy settings
+  retry.maxAttempts=3
+  retry.delay=1000
+  
+  # Log settings
+  log.level=DEBUG
+  log.filepath=logs/app.log</code></pre>
+	<h4>Contributing</h4>
+	<p>Contributions are welcome! Please follow these steps to contribute:</p>
+	<ol>
+	  <li>Fork the repository.</li>
+	  <li>Create a new branch.</li>
+	  <li>Make your changes.</li>
+	  <li>Submit a pull request.</li>
+	</ol>
+	<p>Please ensure your code follows the project's coding standards and includes appropriate tests.</p>
+	<h4>License</h4>
+	<p>This project is licensed under the MIT License. See the LICENSE file for details.</p>
+	<h4>Contact</h4>
+	<p>Hakan GÜL - <a href="https://github.com/hakanngul">GitHub</a> - <a href="https://linkedin.com/in/hhakangul">LinkedIn</a></p>
+  </div>
+  <div id="cfg-selenium-testng" style="display:none;">
+	<p>A Selenium TestNG framework configuration project. It automates various web testing scenarios using Selenium and TestNG.</p>
+  </div>
+  <div id="csharp-selenium" style="display:none;">
+	<p>This project demonstrates the use of C# with Selenium for automated web testing.</p>
+  </div>
+  <div id="swiftui" style="display:none;">
+	<p>A collection of projects showcasing various SwiftUI components and designs.</p>
+  </div>
+  <div id="dotnetcore-webapi" style="display:none;">
+	<p>.NET Core Web API project demonstrating RESTful services.</p>
+  </div>
+  <div id="java-algorithm" style="display:none;">
+	<p>A project focused on various Java algorithms and their implementations.</p>
+  </div>
+  
 	
 
 	<div id="fh5co-blog">
@@ -427,5 +550,82 @@
 <script src="js/jquery.stellar.min.js"></script>
 <script src="js/jquery.easypiechart.min.js"></script>
 <script src="js/main.js"></script>
+<script src="index.js"></script>
+
+
+<style>
+	/* Popup Modal Styles */
+	.modal {
+	  display: none;
+	  position: fixed;
+	  z-index: 1;
+	  padding-top: 60px;
+	  left: 0;
+	  top: 0;
+	  width: 100%;
+	  height: 100%;
+	  overflow: auto;
+	  background-color: rgb(0,0,0);
+	  background-color: rgba(0,0,0,0.4);
+	}
+	
+	.modal-content {
+	  background-color: #fefefe;
+	  margin: 5% auto;
+	  padding: 20px;
+	  border: 1px solid #888;
+	  width: 80%;
+	}
+	
+	.close {
+	  color: #aaa;
+	  float: right;
+	  font-size: 28px;
+	  font-weight: bold;
+	}
+	
+	.close:hover,
+	.close:focus {
+	  color: black;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+	</style>
+	
+	<script>
+		// Popup Modal Script
+document.addEventListener("DOMContentLoaded", function() {
+  var modal = document.getElementById("projectPopup");
+  var span = document.getElementsByClassName("close")[0];
+
+  document.querySelectorAll('.work').forEach(item => {
+    item.addEventListener('click', event => {
+      event.preventDefault();  // Varsayılan bağlantı davranışını önler
+
+      var title = event.currentTarget.getAttribute('data-title');
+      var descriptionId = event.currentTarget.getAttribute('data-description');
+      var description = document.querySelector(descriptionId).innerHTML;
+      
+      document.getElementById('projectTitle').innerText = title;
+      document.getElementById('projectDescription').innerHTML = description;
+
+      modal.style.display = "block";
+    });
+  });
+
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+});
+
+		</script>
+		
+	
 </body>
 </html>
