@@ -29,6 +29,7 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/modern-portfolio.css">
 
 
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -37,77 +38,148 @@
 	<![endif]-->
 </head>
 <body>
-	
+
 <div class="fh5co-loader"></div>
 
+<!-- Modern Navigation -->
+<nav class="modern-header">
+	<div class="header-content">
+		<a href="#" class="logo">&lt;HakanGÜL/&gt;</a>
+		<ul class="nav-menu">
+			<li class="nav-item"><a href="#home" class="active">Home</a></li>
+			<li class="nav-item"><a href="#about">About</a></li>
+			<li class="nav-item"><a href="#skills">Skills</a></li>
+			<li class="nav-item"><a href="#experience">Experience</a></li>
+			<li class="nav-item"><a href="#projects">Projects</a></li>
+			<li class="nav-item"><a href="#contact">Contact</a></li>
+		</ul>
+		<div class="nav-actions">
+			<button class="theme-toggle" id="theme-toggle">
+				<i class="icon-moon"></i>
+			</button>
+			<button class="mobile-menu-toggle" id="mobile-menu-toggle">
+				<i class="icon-menu"></i>
+			</button>
+		</div>
+	</div>
+</nav>
+
 <div id="page">
-	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
+	<!-- Modern Hero Section -->
+	<section id="home" class="hero-section">
+		<div class="floating-element">
+			<i class="icon-code" style="font-size: 4rem; color: var(--primary-color);"></i>
+		</div>
+		<div class="floating-element">
+			<i class="icon-cog" style="font-size: 3rem; color: var(--secondary-color);"></i>
+		</div>
+		<div class="floating-element">
+			<i class="icon-mobile" style="font-size: 3.5rem; color: var(--accent-color);"></i>
+		</div>
+
+		<div class="hero-content animate-fadeInUp">
+			<h1 class="hero-title">
+				Hi, I'm <span class="typing-animation">Hakan GÜL</span>
+			</h1>
+			<h2 class="hero-subtitle">Senior Software Automation Engineer</h2>
+			<p class="hero-description">
+				Passionate about building robust test automation frameworks and creating innovative mobile applications.
+				Specializing in API testing, web automation, and iOS development with 5+ years of experience.
+			</p>
+			<div class="hero-cta">
+				<a href="#projects" class="btn btn-primary">
+					<i class="icon-rocket"></i> View My Work
+				</a>
+				<a href="#contact" class="btn btn-secondary">
+					<i class="icon-mail"></i> Get In Touch
+				</a>
+				<a href="https://github.com/hakanngul" target="_blank" class="btn btn-ghost">
+					<i class="icon-github2"></i> GitHub Profile
+				</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Modern About Section -->
+	<section id="about" class="py-5">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
-							<div class="profile-thumb" style="background: url(images/image.jpeg);"></div>
-							<h1><span>Hakan GÜL</span></h1>
-							<h3><span>Senior Software Automation Engineer</span></h3>
-							<h4><span>Test Automation Expert | API Testing Specialist</span></h4>
-							<p>
-								<ul class="fh5co-social-icons">
-									<li><a href="https://www.instagram.com/hhakangul/"><i class="icon-instagram2"></i></a></li>
-									<li><a href="https://linkedin.com/in/hhakangul"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="https://github.com/hakanngul"><i class="icon-github2"></i></a></li>
-									<li><a href="https://api.whatsapp.com/send?phone=905317328099"><i class="icon-phone-hang-up"></i></a></li>
-									<li><a href="mailto:hakanngul@icloud.com"><i class="icon-mail"></i></a></li>
-								</ul>
-							</p>
+			<div class="text-center mb-5">
+				<h2 class="animate-fadeInUp">About Me</h2>
+				<p class="hero-description animate-fadeInUp">Get to know more about my journey and expertise</p>
+			</div>
+
+			<div class="grid grid-2">
+				<div class="card animate-fadeInLeft">
+					<h3>👨‍💻 Professional Info</h3>
+					<div class="contact-details">
+						<div class="contact-detail">
+							<div class="contact-icon"><i class="icon-user"></i></div>
+							<div>
+								<strong>Full Name:</strong><br>
+								<span>Hakan GÜL</span>
+							</div>
 						</div>
+						<div class="contact-detail">
+							<div class="contact-icon"><i class="icon-briefcase"></i></div>
+							<div>
+								<strong>Current Role:</strong><br>
+								<span>Senior Software Automation Engineer @ Nesine.com</span>
+							</div>
+						</div>
+						<div class="contact-detail">
+							<div class="contact-icon"><i class="icon-location-pin"></i></div>
+							<div>
+								<strong>Location:</strong><br>
+								<span>Istanbul, Turkey</span>
+							</div>
+						</div>
+						<div class="contact-detail">
+							<div class="contact-icon"><i class="icon-calendar"></i></div>
+							<div>
+								<strong>Experience:</strong><br>
+								<span>5+ Years in Software Testing & Automation</span>
+							</div>
+						</div>
+					</div>
+
+					<div class="social-links mt-4">
+						<a href="https://linkedin.com/in/hhakangul" target="_blank" class="social-link">
+							<i class="icon-linkedin2"></i>
+						</a>
+						<a href="https://github.com/hakanngul" target="_blank" class="social-link">
+							<i class="icon-github2"></i>
+						</a>
+						<a href="mailto:hakanngul@icloud.com" class="social-link">
+							<i class="icon-mail"></i>
+						</a>
+						<a href="https://api.whatsapp.com/send?phone=905317328099" target="_blank" class="social-link">
+							<i class="icon-phone"></i>
+						</a>
+					</div>
+				</div>
+
+				<div class="card animate-fadeInRight">
+					<h3>🚀 My Story</h3>
+					<p>I'm a <strong>Senior Software Automation Engineer</strong> at <strong>Nesine.com</strong> with a deep passion for creating robust, scalable test automation frameworks. With <strong>5+ years</strong> of experience in software testing and automation, I specialize in <strong>API testing</strong>, <strong>web automation</strong>, and <strong>mobile development</strong>.</p>
+
+					<div class="mt-3">
+						<h4>🔧 Current Focus</h4>
+						<p>Building comprehensive API test automation frameworks using <strong>RestAssured</strong> and <strong>Cucumber</strong>, while developing CI/CD integration strategies to enhance software quality and delivery speed.</p>
+					</div>
+
+					<div class="mt-3">
+						<h4>📱 Side Passion</h4>
+						<p>iOS development with <strong>SwiftUI</strong>, creating modern mobile applications including crypto trackers and utility apps. I enjoy exploring the intersection of automation testing and mobile development.</p>
+					</div>
+
+					<div class="mt-3">
+						<h4>📊 Impact</h4>
+						<p>I've consistently delivered solutions that reduce manual testing efforts by <strong>75%+</strong> and improve overall product reliability across multiple organizations.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</header>
-
-	<div id="fh5co-about" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<ul class="info">
-						<li><span class="first-block">Full Name:</span><span class="second-block">Hakan GUL</span></li>
-						<li><span class="first-block">Phone:</span><span class="second-block">+90 531 732 8099</span></li>
-						<li><span class="first-block">Email:</span><span class="second-block">hakanngul@icloud.com</span></li>
-						<li><span class="first-block">LinkedIn:</span><span class="second-block"><a href="https://linkedin.com/in/hhakangul">linkedin.com/in/hhakangul</a></span></li>
-						<li><span class="first-block">GitHub:</span><span class="second-block"><a href="https://github.com/hakanngul">github.com/hakanngul</a></span></li>
-						<li><span class="first-block">Address:</span><span class="second-block">Istanbul, Turkey</span></li>
-					</ul>
-				</div>
-				<div class="col-md-8">
-					<h2>Hello There! 👋</h2>
-					<p>I'm a <strong>Senior Software Automation Engineer</strong> at <strong>Nesine.com</strong> with a deep passion for creating robust, scalable test automation frameworks. With <strong>5+ years</strong> of experience in software testing and automation, I specialize in <strong>API testing</strong>, <strong>web automation</strong>, and <strong>mobile development</strong>.</p>
-
-					<p>🔧 <strong>Current Focus:</strong> Building comprehensive API test automation frameworks using <strong>RestAssured</strong> and <strong>Cucumber</strong>, while developing CI/CD integration strategies to enhance software quality and delivery speed.</p>
-
-					<p>📱 <strong>Side Passion:</strong> iOS development with <strong>SwiftUI</strong>, creating modern mobile applications including crypto trackers and utility apps. I enjoy exploring the intersection of automation testing and mobile development.</p>
-
-					<p>🚀 <strong>Technical Journey:</strong> From web development internships at NETAS to AI engineering at Striker Software, and now leading automation initiatives at Turkey's premier sports betting platform. I've consistently delivered solutions that reduce manual testing efforts by <strong>75%+</strong> and improve overall product reliability.</p>
-					<p>
-						<ul class="fh5co-social-icons">
-							<li><a href="https://www.instagram.com/hhakangul/"><i class="icon-instagram2"></i></a></li>
-									<li><a href="https://linkedin.com/in/hhakangul"><i class="icon-linkedin2"></i></a></li>
-									<li><a href="https://github.com/hakanngul"><i class="icon-github2"></i></a></li>
-									<li><a href="https://api.whatsapp.com/send?phone=905317328099"><i class="icon-phone-hang-up"></i></a></li>
-									<li><a href="mailto:hakanngul@icloud.com"><i class="icon-mail"></i></a></li>
-						</ul>
-					</p>
-				</div>
-			</div>
-		</div>
-	</div>
+	</section>
 
 	<div id="fh5co-resume" class="fh5co-bg-color">
 		<div class="container">
@@ -218,108 +290,182 @@
 			</div>
 		</div>
 	</div>
-	<!-- Skills Section -->
-	<div id="fh5co-skills" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Technical Skills & Expertise</h2>
-					<p>Specialized in Test Automation, API Testing, and Modern Software Development</p>
+<!-- Modern Skills Section -->
+<section id="skills" class="py-5" style="background: var(--bg-secondary);">
+	<div class="container">
+		<div class="text-center mb-5">
+			<h2 class="animate-fadeInUp">Technical Skills & Expertise</h2>
+			<p class="hero-description animate-fadeInUp">Specialized in Test Automation, API Testing, and Modern Software Development</p>
+		</div>
+
+		<div class="skills-container">
+			<!-- Test Automation Skills -->
+			<div class="skill-category animate-fadeInUp">
+				<div class="skill-category-title">
+					<div class="skill-category-icon">🔧</div>
+					<span>Test Automation & QA</span>
+				</div>
+				<div class="skill-list">
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">RestAssured</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 95%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">95%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Selenium WebDriver</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 90%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">90%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Cucumber BDD</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 85%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">85%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Playwright</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 80%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">80%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">API Testing</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 90%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">90%</div>
+					</div>
 				</div>
 			</div>
 
-			<!-- Skill Categories -->
-			<div class="row">
-				<div class="col-md-12">
-					<h3 class="text-center" style="margin-bottom: 30px; color: #52d3aa;">🔧 Test Automation & QA</h3>
+			<!-- Programming Languages -->
+			<div class="skill-category animate-fadeInUp">
+				<div class="skill-category-title">
+					<div class="skill-category-icon">💻</div>
+					<span>Programming Languages</span>
 				</div>
-			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="95"><span><strong>RestAssured</strong>95%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Selenium</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>Cucumber</strong>85%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>Playwright</strong>80%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>API Testing</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>Postman</strong>85%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>JMeter</strong>80%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>TestNG</strong>85%</span></div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-md-12">
-					<h3 class="text-center" style="margin-bottom: 30px; color: #52d3aa;">💻 Programming Languages</h3>
-				</div>
-			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="95"><span><strong>Java</strong>95%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>C#</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>Swift</strong>80%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="75"><span><strong>Python</strong>75%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="70"><span><strong>JavaScript</strong>70%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="65"><span><strong>TypeScript</strong>65%</span></div>
+				<div class="skill-list">
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Java</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 95%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">95%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">C#</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 90%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">90%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Swift</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 80%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">80%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Python</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 75%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">75%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">TypeScript</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 70%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">70%</div>
+					</div>
 				</div>
 			</div>
 
-			<div class="row">
-				<div class="col-md-12">
-					<h3 class="text-center" style="margin-bottom: 30px; color: #52d3aa;">🛠️ Frameworks & Tools</h3>
+			<!-- Frameworks & Tools -->
+			<div class="skill-category animate-fadeInUp">
+				<div class="skill-category-title">
+					<div class="skill-category-icon">🛠️</div>
+					<span>Frameworks & Tools</span>
 				</div>
-			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>SwiftUI</strong>85%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>.NET Core</strong>80%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Docker</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>Git</strong>85%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="80"><span><strong>Jenkins</strong>80%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="85"><span><strong>Jira</strong>85%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Agile/Scrum</strong>90%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="75"><span><strong>Spring Boot</strong>75%</span></div>
+				<div class="skill-list">
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">SwiftUI</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 85%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">85%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Docker</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 90%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">90%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Spring Boot</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 75%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">75%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Jenkins CI/CD</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 80%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">80%</div>
+					</div>
+					<div class="skill-item">
+						<div>
+							<div class="skill-name">Agile/Scrum</div>
+							<div class="skill-progress">
+								<div class="skill-progress-bar" style="width: 90%;"></div>
+							</div>
+						</div>
+						<div class="skill-level">90%</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+</section>
 
 
 	<!-- Popup Modal -->
@@ -331,77 +477,229 @@
 	</div>
   </div>
   
-<!-- Work Section -->
-<div id="fh5co-work" class="fh5co-bg-dark">
-	<div class="container">
-	  <div class="row animate-box">
-		<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-		  <h2>Work</h2>
-		</div>
-	  </div>
-	  <div class="row">
-		<!-- Test Automation Projects -->
-		<div class="col-md-4 text-center col-padding animate-box">
-		  <a href="https://github.com/hakanngul/RestAssureCoreApiProject" target="_blank" class="work" data-title="RestAssured Core API Framework" data-description="#restassure-core-api" style="background-image: url(images/Rest-assured.jpg);">
-			<div class="desc">
-			  <h3>RestAssured API Framework</h3>
-			  <span>Java • RestAssured • Cucumber</span>
-			  <p>⭐ Featured Project</p>
+	<!-- Modern Projects Section -->
+	<section id="projects" class="py-5">
+		<div class="container">
+			<div class="text-center mb-5">
+				<h2 class="animate-fadeInUp">Featured Projects</h2>
+				<p class="hero-description animate-fadeInUp">Showcasing my expertise in test automation, mobile development, and backend systems</p>
 			</div>
-		  </a>
-		</div>
-		<div class="col-md-4 text-center col-padding animate-box">
-		  <a href="https://github.com/hakanngul/playwright-allure-demo" target="_blank" class="work" data-title="Playwright Test Framework" data-description="#playwright-framework" style="background-image: url(images/portfolio-2.jpg);">
-			<div class="desc">
-			  <h3>Playwright Automation</h3>
-			  <span>TypeScript • Playwright • Allure</span>
-			  <p>🎯 Modern Web Testing</p>
-			</div>
-		  </a>
-		</div>
-		<div class="col-md-4 text-center col-padding animate-box">
-		  <a href="https://github.com/hakanngul/AmazonTestProduct" target="_blank" class="work" data-title="Amazon E2E Testing" data-description="#amazon-testing" style="background-image: url(images/portfolio-3.jpg);">
-			<div class="desc">
-			  <h3>E-Commerce Testing Suite</h3>
-			  <span>Java • Selenium • TestNG</span>
-			  <p>🛒 Real-world Testing</p>
-			</div>
-		  </a>
-		</div>
-	  </div>
 
-	  <div class="row">
-		<!-- Mobile Development Projects -->
-		<div class="col-md-4 text-center col-padding animate-box">
-		  <a href="https://github.com/hakanngul/Crypto-SwiftUi" target="_blank" class="work" data-title="Crypto Tracker App" data-description="#crypto-swiftui" style="background-image: url(images/portfolio-4.jpg);">
-			<div class="desc">
-			  <h3>Crypto Tracker</h3>
-			  <span>SwiftUI • iOS • API Integration</span>
-			  <p>📱 Mobile Development</p>
+			<div class="project-grid">
+				<!-- RestAssured API Framework -->
+				<div class="project-card animate-fadeInUp">
+					<div class="project-image">
+						<div class="project-icon">
+							<i class="icon-code"></i>
+						</div>
+					</div>
+					<div class="project-content">
+						<h3 class="project-title">RestAssured Core API Framework</h3>
+						<p class="project-description">
+							Enterprise-grade API testing framework built with Java, RestAssured, and Cucumber.
+							Features comprehensive reporting, CI/CD integration, and advanced authentication handling.
+						</p>
+						<div class="project-tech">
+							<span class="tech-tag">Java</span>
+							<span class="tech-tag">RestAssured</span>
+							<span class="tech-tag">Cucumber</span>
+							<span class="tech-tag">TestNG</span>
+							<span class="tech-tag">Maven</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/hakanngul/RestAssureCoreApiProject" target="_blank" class="project-link">
+								<i class="icon-github2"></i> View Code
+							</a>
+							<a href="#" class="project-link" data-title="RestAssured Core API Framework" data-description="#restassure-core-api">
+								<i class="icon-eye"></i> Details
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Crypto Tracker SwiftUI -->
+				<div class="project-card animate-fadeInUp">
+					<div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+						<div class="project-icon">
+							<i class="icon-mobile"></i>
+						</div>
+					</div>
+					<div class="project-content">
+						<h3 class="project-title">Crypto Tracker - SwiftUI</h3>
+						<p class="project-description">
+							Modern iOS application for tracking cryptocurrency prices with real-time data,
+							interactive charts, and portfolio management features.
+						</p>
+						<div class="project-tech">
+							<span class="tech-tag">SwiftUI</span>
+							<span class="tech-tag">iOS</span>
+							<span class="tech-tag">API Integration</span>
+							<span class="tech-tag">Charts</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/hakanngul/Crypto-SwiftUi" target="_blank" class="project-link">
+								<i class="icon-github2"></i> View Code
+							</a>
+							<a href="#" class="project-link" data-title="Crypto Tracker App" data-description="#crypto-swiftui">
+								<i class="icon-eye"></i> Details
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Playwright Framework -->
+				<div class="project-card animate-fadeInUp">
+					<div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);">
+						<div class="project-icon">
+							<i class="icon-cog"></i>
+						</div>
+					</div>
+					<div class="project-content">
+						<h3 class="project-title">Playwright Test Framework</h3>
+						<p class="project-description">
+							Modern web testing framework using Playwright with TypeScript, featuring
+							parallel execution, visual testing, and comprehensive Allure reporting.
+						</p>
+						<div class="project-tech">
+							<span class="tech-tag">TypeScript</span>
+							<span class="tech-tag">Playwright</span>
+							<span class="tech-tag">Allure</span>
+							<span class="tech-tag">CI/CD</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/hakanngul/playwright-allure-demo" target="_blank" class="project-link">
+								<i class="icon-github2"></i> View Code
+							</a>
+							<a href="#" class="project-link" data-title="Playwright Test Framework" data-description="#playwright-framework">
+								<i class="icon-eye"></i> Details
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Amazon E2E Testing -->
+				<div class="project-card animate-fadeInUp">
+					<div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);">
+						<div class="project-icon">
+							<i class="icon-shopping-cart"></i>
+						</div>
+					</div>
+					<div class="project-content">
+						<h3 class="project-title">Amazon E2E Testing Suite</h3>
+						<p class="project-description">
+							Comprehensive end-to-end testing suite for e-commerce platforms,
+							demonstrating complex user journeys and real-world testing scenarios.
+						</p>
+						<div class="project-tech">
+							<span class="tech-tag">Java</span>
+							<span class="tech-tag">Selenium</span>
+							<span class="tech-tag">TestNG</span>
+							<span class="tech-tag">Page Object Model</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/hakanngul/AmazonTestProduct" target="_blank" class="project-link">
+								<i class="icon-github2"></i> View Code
+							</a>
+							<a href="#" class="project-link" data-title="Amazon E2E Testing" data-description="#amazon-testing">
+								<i class="icon-eye"></i> Details
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- iOS Calculator -->
+				<div class="project-card animate-fadeInUp">
+					<div class="project-image" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+						<div class="project-icon">
+							<i class="icon-calculator"></i>
+						</div>
+					</div>
+					<div class="project-content">
+						<h3 class="project-title">iOS Calculator App</h3>
+						<p class="project-description">
+							Native iOS calculator application built with Swift, demonstrating
+							clean architecture and custom UI components.
+						</p>
+						<div class="project-tech">
+							<span class="tech-tag">Swift</span>
+							<span class="tech-tag">UIKit</span>
+							<span class="tech-tag">iOS</span>
+							<span class="tech-tag">MVC</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/hakanngul/calculator-app-swift" target="_blank" class="project-link">
+								<i class="icon-github2"></i> View Code
+							</a>
+							<a href="#" class="project-link" data-title="iOS Calculator App" data-description="#calculator-swift">
+								<i class="icon-eye"></i> Details
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Face Recognition System -->
+				<div class="project-card animate-fadeInUp">
+					<div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+						<div class="project-icon">
+							<i class="icon-eye"></i>
+						</div>
+					</div>
+					<div class="project-content">
+						<h3 class="project-title">AI Face Recognition System</h3>
+						<p class="project-description">
+							Advanced face recognition system with PyQt5 GUI for student attendance management.
+							Features real-time face detection, database integration, and comprehensive admin panel.
+						</p>
+						<div class="project-tech">
+							<span class="tech-tag">Python</span>
+							<span class="tech-tag">PyQt5</span>
+							<span class="tech-tag">OpenCV</span>
+							<span class="tech-tag">MySQL</span>
+							<span class="tech-tag">AI/ML</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/hakanngul/Face-Recognation-with-Python-GUI-PyQt5" target="_blank" class="project-link">
+								<i class="icon-github2"></i> View Code
+							</a>
+							<a href="#" class="project-link" data-title="AI Face Recognition System" data-description="#face-recognition">
+								<i class="icon-eye"></i> Details
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<!-- Java Core Framework -->
+				<div class="project-card animate-fadeInUp">
+					<div class="project-image" style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);">
+						<div class="project-icon">
+							<i class="icon-server"></i>
+						</div>
+					</div>
+					<div class="project-content">
+						<h3 class="project-title">Java Core Framework</h3>
+						<p class="project-description">
+							Enterprise Java framework built with Spring Boot, demonstrating
+							microservices architecture and modern backend development practices.
+						</p>
+						<div class="project-tech">
+							<span class="tech-tag">Java</span>
+							<span class="tech-tag">Spring Boot</span>
+							<span class="tech-tag">Microservices</span>
+							<span class="tech-tag">REST API</span>
+						</div>
+						<div class="project-links">
+							<a href="https://github.com/hakanngul/nextus-core" target="_blank" class="project-link">
+								<i class="icon-github2"></i> View Code
+							</a>
+							<a href="#" class="project-link" data-title="Java Core Framework" data-description="#nextus-core">
+								<i class="icon-eye"></i> Details
+							</a>
+						</div>
+					</div>
+				</div>
 			</div>
-		  </a>
 		</div>
-		<div class="col-md-4 text-center col-padding animate-box">
-		  <a href="https://github.com/hakanngul/calculator-app-swift" target="_blank" class="work" data-title="iOS Calculator App" data-description="#calculator-swift" style="background-image: url(images/portfolio-5.jpg);">
-			<div class="desc">
-			  <h3>iOS Calculator</h3>
-			  <span>Swift • UIKit • iOS</span>
-			  <p>🧮 Native iOS App</p>
-			</div>
-		  </a>
-		</div>
-		<div class="col-md-4 text-center col-padding animate-box">
-		  <a href="https://github.com/hakanngul/nextus-core" target="_blank" class="work" data-title="Java Core Framework" data-description="#nextus-core" style="background-image: url(images/portfolio-6.jpg);">
-			<div class="desc">
-			  <h3>Java Core Framework</h3>
-			  <span>Java • Spring Boot • Microservices</span>
-			  <p>⚙️ Backend Development</p>
-			</div>
-		  </a>
-		</div>
-	  </div>
-	</div>
-  </div>
+	</section>
   
   <!-- Popup Modal -->
   <div id="projectPopup" class="modal">
@@ -564,87 +862,136 @@
 		</div>
 	</div>
 
-	<!-- Contact Section -->
-	<div id="fh5co-contact">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Get In Touch</h2>
-					<p>Let's discuss test automation, mobile development, or potential collaboration opportunities.</p>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-6">
-					<div class="contact-info animate-box">
-						<h3>Contact Information</h3>
-						<ul class="contact-details">
-							<li><i class="icon-location-pin"></i> Istanbul, Turkey</li>
-							<li><i class="icon-phone"></i> +90 531 732 8099</li>
-							<li><i class="icon-envelope"></i> hakanngul@icloud.com</li>
-							<li><i class="icon-briefcase"></i> Senior Software Automation Engineer @ Nesine.com</li>
-						</ul>
-						<div class="social-links" style="margin-top: 30px;">
-							<a href="https://linkedin.com/in/hhakangul" target="_blank" class="btn btn-primary" style="margin-right: 10px;">
-								<i class="icon-linkedin2"></i> LinkedIn
-							</a>
-							<a href="https://github.com/hakanngul" target="_blank" class="btn btn-primary" style="margin-right: 10px;">
-								<i class="icon-github2"></i> GitHub
-							</a>
-							<a href="mailto:hakanngul@icloud.com" class="btn btn-primary">
-								<i class="icon-envelope"></i> Email
-							</a>
+<!-- Modern Contact Section -->
+<section id="contact" class="contact-section">
+	<div class="container">
+		<div class="text-center mb-5">
+			<h2 class="animate-fadeInUp" style="color: white;">Get In Touch</h2>
+			<p class="hero-description animate-fadeInUp" style="color: rgba(255,255,255,0.8);">
+				Let's discuss test automation, mobile development, or potential collaboration opportunities
+			</p>
+		</div>
+
+		<div class="contact-container">
+			<div class="contact-info animate-fadeInLeft">
+				<h3 class="contact-info-title">Let's Connect</h3>
+				<div class="contact-details">
+					<div class="contact-detail">
+						<div class="contact-icon">
+							<i class="icon-location-pin"></i>
+						</div>
+						<div>
+							<strong>Location</strong><br>
+							Istanbul, Turkey
+						</div>
+					</div>
+					<div class="contact-detail">
+						<div class="contact-icon">
+							<i class="icon-briefcase"></i>
+						</div>
+						<div>
+							<strong>Current Role</strong><br>
+							Senior Software Automation Engineer @ Nesine.com
+						</div>
+					</div>
+					<div class="contact-detail">
+						<div class="contact-icon">
+							<i class="icon-mail"></i>
+						</div>
+						<div>
+							<strong>Email</strong><br>
+							hakanngul@icloud.com
+						</div>
+					</div>
+					<div class="contact-detail">
+						<div class="contact-icon">
+							<i class="icon-phone"></i>
+						</div>
+						<div>
+							<strong>Phone</strong><br>
+							+90 531 732 8099
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="contact-form animate-box">
-						<h3>Send a Message</h3>
-						<form action="#" method="post">
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Your Name" required>
-							</div>
-							<div class="form-group">
-								<input type="email" class="form-control" placeholder="Your Email" required>
-							</div>
-							<div class="form-group">
-								<input type="text" class="form-control" placeholder="Subject" required>
-							</div>
-							<div class="form-group">
-								<textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
-							</div>
-							<div class="form-group">
-								<button type="submit" class="btn btn-primary btn-lg">Send Message</button>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-<div id="fh5co-footer">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<p>&copy; 2025 Hakan GÜL. All Rights Reserved. | Senior Software Automation Engineer</p>
-				<p>
-					<a href="https://linkedin.com/in/hhakangul" target="_blank" style="margin: 0 10px; color: #52d3aa;">
+
+				<div class="social-links">
+					<a href="https://linkedin.com/in/hhakangul" target="_blank" class="social-link">
 						<i class="icon-linkedin2"></i>
 					</a>
-					<a href="https://github.com/hakanngul" target="_blank" style="margin: 0 10px; color: #52d3aa;">
+					<a href="https://github.com/hakanngul" target="_blank" class="social-link">
 						<i class="icon-github2"></i>
 					</a>
-					<a href="mailto:hakanngul@icloud.com" style="margin: 0 10px; color: #52d3aa;">
-						<i class="icon-envelope"></i>
+					<a href="mailto:hakanngul@icloud.com" class="social-link">
+						<i class="icon-mail"></i>
 					</a>
-				</p>
-				<p style="font-size: 14px; color: #999;">
-					Built with ❤️ for Test Automation & Mobile Development
-				</p>
+					<a href="https://api.whatsapp.com/send?phone=905317328099" target="_blank" class="social-link">
+						<i class="icon-phone"></i>
+					</a>
+				</div>
+			</div>
+
+			<div class="contact-form animate-fadeInRight">
+				<h3 class="form-title">Send a Message</h3>
+				<form id="contact-form">
+					<div class="form-group">
+						<label class="form-label">Your Name</label>
+						<input type="text" class="form-input" name="name" required>
+					</div>
+					<div class="form-group">
+						<label class="form-label">Your Email</label>
+						<input type="email" class="form-input" name="email" required>
+					</div>
+					<div class="form-group">
+						<label class="form-label">Subject</label>
+						<input type="text" class="form-input" name="subject" required>
+					</div>
+					<div class="form-group">
+						<label class="form-label">Your Message</label>
+						<textarea class="form-textarea" name="message" required></textarea>
+					</div>
+					<button type="submit" class="form-submit">
+						<i class="icon-send"></i> Send Message
+					</button>
+				</form>
 			</div>
 		</div>
 	</div>
+</section>
 </div>
+<!-- Modern Footer -->
+<footer class="modern-footer">
+	<div class="footer-content">
+		<div class="footer-logo">&lt;Hakan GÜL/&gt; &nbsp;</div>
+		<p class="footer-description">
+			Senior Software Automation Engineer passionate about building robust test frameworks
+			and innovative mobile applications. Let's create something amazing together.
+		</p>
+
+		<div class="footer-social">
+			<a href="https://linkedin.com/in/hhakangul" target="_blank" class="footer-social-link">
+				<i class="icon-linkedin2"></i>
+			</a>
+			<a href="https://github.com/hakanngul" target="_blank" class="footer-social-link">
+				<i class="icon-github2"></i>
+			</a>
+			<a href="mailto:hakanngul@icloud.com" class="footer-social-link">
+				<i class="icon-mail"></i>
+			</a>
+			<a href="https://api.whatsapp.com/send?phone=905317328099" target="_blank" class="footer-social-link">
+				<i class="icon-phone"></i>
+			</a>
+		</div>
+
+		<div class="footer-bottom">
+			<p class="footer-copyright">
+				&copy; 2025 Hakan GÜL. All Rights Reserved. | Senior Software Automation Engineer
+			</p>
+			<p class="footer-built-with">
+				Built with ❤️ for Test Automation & Mobile Development
+			</p>
+		</div>
+	</div>
+</footer>
 <div class="gototop js-top">
 	<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
 </div>
